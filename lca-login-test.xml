@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<listeners>
+		<listener class-name="dxc.lca.automation.common.ScreenshotListener" />
+	</listeners>
+	<test name="Test">
+		<classes>
+			<class name="dxc.lca.automation.tests.ApplicationLauncher" />
+			<class name="dxc.lca.automation.tests.LoginPageTest" />
+			<class name="dxc.lca.automation.tests.TodayVisitTest" />	
+			<class name="dxc.lca.automation.tests.OpenAlertTabTest" />	
+			<class name="dxc.lca.automation.tests.OpenAlertFormTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
