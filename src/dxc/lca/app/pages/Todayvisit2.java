@@ -13,7 +13,7 @@ import dxc.lca.automation.common.utils.ExcelUtils;
 
 /**
  * The base page object class will be inherited by all other object page classes.
- * @author lnguyen52
+ * @author tle256
  *
  */
 public class Todayvisit2 
