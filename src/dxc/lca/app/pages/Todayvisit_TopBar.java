@@ -9,6 +9,7 @@ import org.openqa.selenium.WebElement;
 /**
  * The object class will be used as a property of the  Base Page class
  * @author Le Nguyen
+ * @Update Tan Le
  *
  */
 public class Todayvisit_TopBar 

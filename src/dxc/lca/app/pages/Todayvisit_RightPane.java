@@ -1,21 +1,20 @@
 package dxc.lca.app.pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+//import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import dxc.lca.automation.common.Constants;
 
-import dxc.lca.automation.common.*;
+//import dxc.lca.automation.common.*;
 import dxc.lca.automation.common.utils.ExcelUtils;
 
 public class Todayvisit_RightPane 
 {	
 	private WebElement rightpanel;
-	private WebElement btnArrived;
+//	private WebElement btnArrived;
 	private WebElement tabAlert;
 	private WebElement btnAlert;
-	private WebElement btnCategory; 
 	private ExcelUtils excel;
 	public Todayvisit_RightPane() {}	
 	
@@ -45,7 +44,4 @@ public class Todayvisit_RightPane
 	public WebElement getAlert() {
 		return this.btnAlert;
 	}
-//	public WebElement getCategory() {
-//		return this.btnCategory;
-//	}
 }
