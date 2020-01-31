@@ -33,22 +33,6 @@ public class TodayVisitTest  extends BaseTest {
 		pageTodayVisit.lefPane.selectElementByPASID(Constants.PatientID_01);
 		System.out.println("Selected contact of the patient :" + Constants.PatientID_01);
 		TimeUnit.MILLISECONDS.sleep(3000);
-		this.takeScreenShot("SelectContact");
-		//** Open Menu 
-//		pageTodayVisit.openmenu();
-//     	pageTodayVisit.switchbutton();
-//     	pageTodayVisit.getcancel();
-//     	System.out.println("Get elememnt successfully");
-//		TimeUnit.MILLISECONDS.sleep(4000);
-	  //  this.takeScreenShot("Open Note Tab");
-	
-	    //	**Switch to Of	fline	
-	//	pageTodayVisit.switchMode();
-//		TimeUnit.MILLISECONDS.sleep(5000);
-//		this.takeScreenShot("Sync_started");
-		
+		this.takeScreenShot("SelectContact");		
 	}
-
-	
-	
 }
